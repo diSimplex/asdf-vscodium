@@ -1,0 +1,5 @@
+#/bin/sh
+
+curl --silent \
+  --location https://api.github.com/repos/VSCodium/vscodium/releases \
+  | grep tag_name | cut -d ":" -f 2 | tr -d "\"\," | tac | tr '\n' ' '

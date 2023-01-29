@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# This asdf shell script provides useful URLS for VSCodium
+
+echo GitHub https://github.com/VSCodium/vscodium
+echo ""
+echo VSCodium https://vscodium.com/
+echo ""
+echo VSCode https://code.visualstudio.com/
+echo ""

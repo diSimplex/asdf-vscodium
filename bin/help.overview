@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# This asdf shell script provides a brief overview of VSCodium
+
+echo "(From https://vscodium.com/#why)"
+echo ""
+echo "Microsoft’s vscode source code is open source (MIT-licensed), but the "
+echo "product available for download (Visual Studio Code) is licensed under this "
+echo "not-FLOSS license and contains telemetry/tracking. "
+echo ""
+echo "The VSCodium project exists so that you don’t have to download+build "
+echo "from source. This project includes special build scripts that clone "
+echo "Microsoft’s vscode repo, run the build commands, and upload the "
+echo "resulting binaries for you to GitHub releases. These binaries are licensed "
+echo "under the MIT license. Telemetry is disabled. "
+
